@@ -1,30 +1,83 @@
- /* Custom Styles for Skills Section */
-.skills-card {
-    border: 1px solid #dee2e6;
-    margin-bottom: 20px;
-    transition: transform 0.2s;
+/* Custom Styles */
+body {
+    scroll-behavior: smooth;
   }
 
-  .skills-card:hover {
+  header {
+    background-color: #343a40;
+    padding: 10px 0;
+  }
+
+  header a.navbar-brand,
+  header .navbar-nav a.nav-link {
+    color: #ffffff !important;
+  }
+
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  section {
+    margin: 40px 0;
+  }
+
+  .section-header {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  /* Portfolio Section Styles */
+  #portfolio .card {
+    border: none;
+    transition: transform 0.3s;
+  }
+
+  #portfolio .card:hover {
     transform: scale(1.05);
   }
 
-  .skills-card .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  #portfolio .card-img-top {
+    border-radius: 10px 10px 0 0;
   }
 
-  .skills-list {
+  #portfolio .card-title {
+    font-size: 1.2rem;
+  }
+
+  #portfolio .card-text {
+    color: #6c757d;
+  }
+
+  /* Skills Section Styles */
+  #skills .skills-card {
+    border: none;
+    transition: transform 0.3s;
+  }
+
+  #skills .skills-card:hover {
+    transform: scale(1.05);
+  }
+
+  #skills .card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+
+  #skills .skills-list {
     list-style: none;
     padding: 0;
     margin: 0;
   }
 
-  .skills-list-item {
+  #skills .skills-list-item {
     background-color: #f8f9fa;
     padding: 10px;
     border-radius: 5px;
     margin: 5px 0;
     text-align: center;
+    color: #343a40;
   }
