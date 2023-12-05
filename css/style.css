@@ -1,83 +1,119 @@
 /* Custom Styles */
 body {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
-  header {
-    background-color: #343a40;
-    padding: 10px 0;
-  }
+header {
+  background-color: #343a40;
+  padding: 10px 0;
+}
 
-  header a.navbar-brand,
-  header .navbar-nav a.nav-link {
-    color: #ffffff !important;
-  }
+header a.navbar-brand,
+header .navbar-nav a.nav-link {
+  color: #ffffff !important;
+}
 
-  .jumbotron {
-    background-color: #f8f9fa;
-    padding: 40px;
-    margin-top: 20px;
-    border-radius: 10px;
-  }
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
 
-  section {
-    margin: 40px 0;
-  }
+section {
+  margin: 40px 0;
+}
 
-  .section-header {
-    color: #343a40;
-    text-align: center;
-    margin-bottom: 40px;
-  }
+.section-header {
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 40px;
+}
 
-  /* Portfolio Section Styles */
-  #portfolio .card {
-    border: none;
-    transition: transform 0.3s;
-  }
+/* Portfolio Section Styles */
+#portfolio .card {
+  border: none;
+  transition: transform 0.3s;
+}
 
-  #portfolio .card:hover {
-    transform: scale(1.05);
-  }
+#portfolio .card:hover {
+  transform: scale(1.05);
+}
 
-  #portfolio .card-img-top {
-    border-radius: 10px 10px 0 0;
-  }
+#portfolio .card-img-top {
+  border-radius: 10px 10px 0 0;
+}
 
-  #portfolio .card-title {
-    font-size: 1.2rem;
-  }
+#portfolio .card-title {
+  font-size: 1.2rem;
+}
 
-  #portfolio .card-text {
-    color: #6c757d;
-  }
+#portfolio .card-text {
+  color: #6c757d;
+}
 
-  /* Skills Section Styles */
-  #skills .skills-card {
-    border: none;
-    transition: transform 0.3s;
-  }
+/* Skills Section Styles */
+#skills .skills-card {
+  border: none;
+  transition: transform 0.3s;
+}
 
-  #skills .skills-card:hover {
-    transform: scale(1.05);
-  }
+#skills .skills-card:hover {
+  transform: scale(1.05);
+}
 
-  #skills .card-title {
-    font-size: 1.5rem;
-    color: #343a40;
-  }
+#skills .card-title {
+  font-size: 1.5rem;
+  color: #343a40;
+}
 
-  #skills .skills-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+#skills .skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-  #skills .skills-list-item {
-    background-color: #f8f9fa;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 5px 0;
-    text-align: center;
-    color: #343a40;
-  }
+#skills .skills-list-item {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  text-align: center;
+  color: #343a40;
+}
+
+/* About Me Section Styles */
+#about {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+/* Contact Section Styles */
+#contact {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact p {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
