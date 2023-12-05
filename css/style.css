@@ -1,0 +1,30 @@
+ /* Custom Styles for Skills Section */
+.skills-card {
+    border: 1px solid #dee2e6;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+  }
+
+  .skills-card:hover {
+    transform: scale(1.05);
+  }
+
+  .skills-card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skills-list-item {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: center;
+  }
